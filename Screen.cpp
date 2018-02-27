@@ -70,6 +70,10 @@ void Screen::update(){
     SDL_RenderPresent(m_renderer);
 }
 
+void Screen::clear() {
+    memset(m_buffer, 0, SCREENWIDTH*SCREENHEIGHT* sizeof(Uint32));
+}
+
 bool Screen::processEvent(){
     SDL_Event event;
     while(SDL_PollEvent(&event)){
