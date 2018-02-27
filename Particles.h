@@ -10,7 +10,7 @@ class Particles {
 
 public:
     Particles();
-    void update();
+    void update(int interval);
     double m_x;
     double m_y;
     double m_speed;
