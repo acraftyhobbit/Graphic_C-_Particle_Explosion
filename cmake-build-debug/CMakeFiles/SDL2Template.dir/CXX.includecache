@@ -607,6 +607,8 @@ close_code.h
 /Users/user/Code/learning-c/SDL2/Particles.cpp
 stdlib.h
 -
+math.h
+-
 Particles.h
 /Users/user/Code/learning-c/SDL2/Particles.h
 
