@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/user/Code/learning-c/SDL2/Screen.cpp">
+			<Option target="SDL2Template"/>
+		</Unit>
+		<Unit filename="/Users/user/Code/learning-c/SDL2/Screen.h">
+			<Option target="SDL2Template"/>
+		</Unit>
 		<Unit filename="/Users/user/Code/learning-c/SDL2/main.cpp">
 			<Option target="SDL2Template"/>
 		</Unit>

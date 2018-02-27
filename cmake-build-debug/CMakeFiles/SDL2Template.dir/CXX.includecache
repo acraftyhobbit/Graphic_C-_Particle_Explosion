@@ -604,9 +604,21 @@ close_code.h
 
 /Library/Frameworks/SDL2.framework/Headers/close_code.h
 
+/Users/user/Code/learning-c/SDL2/Screen.cpp
+Screen.h
+/Users/user/Code/learning-c/SDL2/Screen.h
+
+/Users/user/Code/learning-c/SDL2/Screen.h
+SDL.h
+-
+
 /Users/user/Code/learning-c/SDL2/main.cpp
 iostream
 -
 SDL.h
 -
+math.h
+-
+Screen.h
+/Users/user/Code/learning-c/SDL2/Screen.h
 
