@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SDL2Template.dir/main.cpp.o"
   "CMakeFiles/SDL2Template.dir/Screen.cpp.o"
+  "CMakeFiles/SDL2Template.dir/Particles.cpp.o"
+  "CMakeFiles/SDL2Template.dir/Swarm.cpp.o"
   "SDL2Template.pdb"
   "SDL2Template"
 )

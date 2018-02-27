@@ -105,19 +105,71 @@ CMakeFiles/SDL2Template.dir/Screen.cpp.o.provides: CMakeFiles/SDL2Template.dir/S
 CMakeFiles/SDL2Template.dir/Screen.cpp.o.provides.build: CMakeFiles/SDL2Template.dir/Screen.cpp.o
 
 
+CMakeFiles/SDL2Template.dir/Particles.cpp.o: CMakeFiles/SDL2Template.dir/flags.make
+CMakeFiles/SDL2Template.dir/Particles.cpp.o: ../Particles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/user/Code/learning-c/SDL2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SDL2Template.dir/Particles.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SDL2Template.dir/Particles.cpp.o -c /Users/user/Code/learning-c/SDL2/Particles.cpp
+
+CMakeFiles/SDL2Template.dir/Particles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL2Template.dir/Particles.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Code/learning-c/SDL2/Particles.cpp > CMakeFiles/SDL2Template.dir/Particles.cpp.i
+
+CMakeFiles/SDL2Template.dir/Particles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL2Template.dir/Particles.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Code/learning-c/SDL2/Particles.cpp -o CMakeFiles/SDL2Template.dir/Particles.cpp.s
+
+CMakeFiles/SDL2Template.dir/Particles.cpp.o.requires:
+
+.PHONY : CMakeFiles/SDL2Template.dir/Particles.cpp.o.requires
+
+CMakeFiles/SDL2Template.dir/Particles.cpp.o.provides: CMakeFiles/SDL2Template.dir/Particles.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SDL2Template.dir/build.make CMakeFiles/SDL2Template.dir/Particles.cpp.o.provides.build
+.PHONY : CMakeFiles/SDL2Template.dir/Particles.cpp.o.provides
+
+CMakeFiles/SDL2Template.dir/Particles.cpp.o.provides.build: CMakeFiles/SDL2Template.dir/Particles.cpp.o
+
+
+CMakeFiles/SDL2Template.dir/Swarm.cpp.o: CMakeFiles/SDL2Template.dir/flags.make
+CMakeFiles/SDL2Template.dir/Swarm.cpp.o: ../Swarm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/user/Code/learning-c/SDL2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SDL2Template.dir/Swarm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SDL2Template.dir/Swarm.cpp.o -c /Users/user/Code/learning-c/SDL2/Swarm.cpp
+
+CMakeFiles/SDL2Template.dir/Swarm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SDL2Template.dir/Swarm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Code/learning-c/SDL2/Swarm.cpp > CMakeFiles/SDL2Template.dir/Swarm.cpp.i
+
+CMakeFiles/SDL2Template.dir/Swarm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SDL2Template.dir/Swarm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Code/learning-c/SDL2/Swarm.cpp -o CMakeFiles/SDL2Template.dir/Swarm.cpp.s
+
+CMakeFiles/SDL2Template.dir/Swarm.cpp.o.requires:
+
+.PHONY : CMakeFiles/SDL2Template.dir/Swarm.cpp.o.requires
+
+CMakeFiles/SDL2Template.dir/Swarm.cpp.o.provides: CMakeFiles/SDL2Template.dir/Swarm.cpp.o.requires
+	$(MAKE) -f CMakeFiles/SDL2Template.dir/build.make CMakeFiles/SDL2Template.dir/Swarm.cpp.o.provides.build
+.PHONY : CMakeFiles/SDL2Template.dir/Swarm.cpp.o.provides
+
+CMakeFiles/SDL2Template.dir/Swarm.cpp.o.provides.build: CMakeFiles/SDL2Template.dir/Swarm.cpp.o
+
+
 # Object files for target SDL2Template
 SDL2Template_OBJECTS = \
 "CMakeFiles/SDL2Template.dir/main.cpp.o" \
-"CMakeFiles/SDL2Template.dir/Screen.cpp.o"
+"CMakeFiles/SDL2Template.dir/Screen.cpp.o" \
+"CMakeFiles/SDL2Template.dir/Particles.cpp.o" \
+"CMakeFiles/SDL2Template.dir/Swarm.cpp.o"
 
 # External object files for target SDL2Template
 SDL2Template_EXTERNAL_OBJECTS =
 
 SDL2Template: CMakeFiles/SDL2Template.dir/main.cpp.o
 SDL2Template: CMakeFiles/SDL2Template.dir/Screen.cpp.o
+SDL2Template: CMakeFiles/SDL2Template.dir/Particles.cpp.o
+SDL2Template: CMakeFiles/SDL2Template.dir/Swarm.cpp.o
 SDL2Template: CMakeFiles/SDL2Template.dir/build.make
 SDL2Template: CMakeFiles/SDL2Template.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/user/Code/learning-c/SDL2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable SDL2Template"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/user/Code/learning-c/SDL2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable SDL2Template"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2Template.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +179,8 @@ CMakeFiles/SDL2Template.dir/build: SDL2Template
 
 CMakeFiles/SDL2Template.dir/requires: CMakeFiles/SDL2Template.dir/main.cpp.o.requires
 CMakeFiles/SDL2Template.dir/requires: CMakeFiles/SDL2Template.dir/Screen.cpp.o.requires
+CMakeFiles/SDL2Template.dir/requires: CMakeFiles/SDL2Template.dir/Particles.cpp.o.requires
+CMakeFiles/SDL2Template.dir/requires: CMakeFiles/SDL2Template.dir/Swarm.cpp.o.requires
 
 .PHONY : CMakeFiles/SDL2Template.dir/requires
 

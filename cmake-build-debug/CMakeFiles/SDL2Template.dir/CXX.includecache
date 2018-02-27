@@ -604,6 +604,14 @@ close_code.h
 
 /Library/Frameworks/SDL2.framework/Headers/close_code.h
 
+/Users/user/Code/learning-c/SDL2/Particles.cpp
+stdlib.h
+-
+Particles.h
+/Users/user/Code/learning-c/SDL2/Particles.h
+
+/Users/user/Code/learning-c/SDL2/Particles.h
+
 /Users/user/Code/learning-c/SDL2/Screen.cpp
 Screen.h
 /Users/user/Code/learning-c/SDL2/Screen.h
@@ -611,6 +619,14 @@ Screen.h
 /Users/user/Code/learning-c/SDL2/Screen.h
 SDL.h
 -
+
+/Users/user/Code/learning-c/SDL2/Swarm.cpp
+Swarm.h
+/Users/user/Code/learning-c/SDL2/Swarm.h
+
+/Users/user/Code/learning-c/SDL2/Swarm.h
+Particles.h
+/Users/user/Code/learning-c/SDL2/Particles.h
 
 /Users/user/Code/learning-c/SDL2/main.cpp
 iostream
@@ -621,4 +637,10 @@ math.h
 -
 Screen.h
 /Users/user/Code/learning-c/SDL2/Screen.h
+stdlib.h
+-
+Swarm.h
+/Users/user/Code/learning-c/SDL2/Swarm.h
+Particles.h
+/Users/user/Code/learning-c/SDL2/Particles.h
 

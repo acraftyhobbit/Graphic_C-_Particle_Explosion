@@ -84,10 +84,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/user/Code/learning-c/SDL2/Particles.cpp">
+			<Option target="SDL2Template"/>
+		</Unit>
+		<Unit filename="/Users/user/Code/learning-c/SDL2/Particles.h">
+			<Option target="SDL2Template"/>
+		</Unit>
 		<Unit filename="/Users/user/Code/learning-c/SDL2/Screen.cpp">
 			<Option target="SDL2Template"/>
 		</Unit>
 		<Unit filename="/Users/user/Code/learning-c/SDL2/Screen.h">
+			<Option target="SDL2Template"/>
+		</Unit>
+		<Unit filename="/Users/user/Code/learning-c/SDL2/Swarm.cpp">
+			<Option target="SDL2Template"/>
+		</Unit>
+		<Unit filename="/Users/user/Code/learning-c/SDL2/Swarm.h">
 			<Option target="SDL2Template"/>
 		</Unit>
 		<Unit filename="/Users/user/Code/learning-c/SDL2/main.cpp">
